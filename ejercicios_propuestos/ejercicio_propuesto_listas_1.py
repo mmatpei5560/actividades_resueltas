@@ -9,7 +9,7 @@ ventas.append(int(input("Venta(J): ")))
 ventas.append(int(input("Venta(V): ")))
 
 total = 0
-for venta in range(1,len(ventas)):
+for venta in ventas:
     total += venta
 
 ventas.sort()
