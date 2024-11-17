@@ -1,7 +1,7 @@
 # Ejercicio propuesto con listas (1)
 
 ventas = []
-nombre = input("Introduzca el nombre del ventas: ")
+nombre = input("Introduzca el nombre del comercial: ")
 ventas.append(int(input("Venta(L): ")))
 ventas.append(int(input("Venta(M): ")))
 ventas.append(int(input("Venta(X): ")))
